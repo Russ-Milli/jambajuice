@@ -1,0 +1,151 @@
+h2{
+    text-align: center;
+    font-weight: bolder;
+    color: crimson;
+    font-family: Ebrima;
+    font-size: 40px;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: chartreuse;
+}
+li{
+    float: left;
+}
+li a{
+    padding: 15px;
+    color: azure;
+    display: block;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: black;
+}
+p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.Valencia{
+       border: 3px solid chocolate;
+    text-align: center;
+    font-family: "cursive";
+    background-color: aqua;
+    margin: 30px;
+    padding: 10px;
+}
+.Arsenal{
+       border: 3px solid chocolate;
+    text-align: center;
+    font-family: "cursive";
+    background-color: aqua;
+    margin: 30px;
+    padding: 10px;
+
+}
+.PSG{
+       border: 3px solid chocolate;
+    text-align: center;
+    font-family: "cursive";
+    background-color: aqua;
+    margin: 30px;
+    padding: 10px;
+}
+.Mancity{
+       border: 3px solid chocolate;
+    text-align: center;
+    font-family: "cursive";
+    background-color: aqua;
+    margin: 30px;
+    padding: 10px;
+}
+.Bayern{
+       border: 3px solid chocolate;
+    text-align: center;
+    font-family: "cursive";
+    background-color: aqua;
+    margin: 30px;
+    padding: 10px;
+}
+.Liverpool{
+       border: 3px solid chocolate;
+    text-align: center;
+    font-family: "cursive";
+    background-color: aqua;
+    margin: 30px;
+    padding: 10px;
+}
+.Barcelona{
+       border: 3px solid chocolate;
+    text-align: center;
+    font-family: "cursive";
+    background-color: aqua;
+    margin: 30px;
+    padding: 10px;
+}
+
+    table{
+        width: 90%;
+        height: 50%;
+        border-collapse: collapse;
+        margin: 10px;
+        background-color: black;
+
+    }
+    td,th{
+        border: 2px solid turquoise;
+        padding: 10px;
+        font-family: Ebrima;
+        font-size: 15px;
+
+    }
+tr:nth-child(even){
+    background-color: red;
+}
+form{
+    label{
+        text-align: center;
+    }
+}
+#form-container {
+    background-color: brown;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+
+
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+button{
+    background-color: #25033a;
+    color: #a52a7a;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ol{
+    li{
+        float: revert;
+        color: orange;
+        font-weight: bolder;
+    }
+}
+.Tournaments{
+           border: 3px solid chocolate;
+    text-align: center;
+    font-family: "cursive";
+    background-color: dimgray;
+    margin: 30px;
+    padding: 10px;
+    text-decoration-color: red;
+
+}

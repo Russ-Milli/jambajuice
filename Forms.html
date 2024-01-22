@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="assets/images/scenery.jpeg" type="image/x-icon">
+    <style>
+        form{
+            label{
+                 font-size: 19px;
+                font-family: "Droid Sans Mono Dotted";
+                color: red;
+                text-align: -moz-center;
+
+            }
+input{
+    font-size: 19px;
+    font-family: "Fira Code";
+    color: red;
+    background-color: aqua;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+
+
+
+
+
+
+        }
+body{
+    background-image: url("assets/images/cars.jpeg"); width: 900px; height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    background-position: center;
+    backdrop-filter: brightness(90%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+<h2 style="color: blue">Emobilis Registration Form</h2>
+<form action="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="Ryan" required placeholder="First Name"><br><br>
+    <label for="lname">Last Name</label>
+    <input type="text"  id="lname" name="Thuku"  placeholder="Last name"><br><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="barua pepe"  placeholder="Enter email"><br><br>
+    <label for="phone">Mobile No.</label>
+    <input type="text" id="phone" name="Number"  placeholder="Enter number"><br><br>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender"><br><br>
+    <label for="Male">Male</label>
+    <input type="radio" id="Male" name="gender"><br><br>
+    <label for="Others">Others</label>
+    <input type="radio" id="Others" name="gender"><br><br>
+    <label for="course">course</label>
+    <select name="course" id="course">
+        <option value="react js">React js</option>
+        <option value="Android">Android</option>
+        <option value="Cyber security">cyber security</option>
+        <option value="artificial intelligence">A.I</option>
+        <option value="Fullstack">Fullstack</option>
+    </select><br>
+    <label for="DOB">Date Of Birth</label>
+    <input type="date" id="DOB" name="Date"><br><br>
+    <label for="upload file">Upload image</label>
+    <input type="File" id="upload file"><br>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="neno siri"  placeholder="Enter password"><br><br>
+    <input type="submit" value="Register">
+</form>
+
+
+</body>
+</html>

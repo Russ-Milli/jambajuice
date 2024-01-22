@@ -1,0 +1,35 @@
+.fruits{
+    border: 3px solid chocolate;
+    text-align: center;
+    font-family: "marlett";
+    background-color: aqua;
+    margin: 30px;
+    padding: 10px;
+}
+.cars {
+    border: 2px dotted red;
+    text-align: center;
+    font-family: Gabriola, fantasy;
+    background-color: coral;
+    margin: 10px;
+    padding: 19px;
+
+}
+.football{
+        border: 2px dotted yellow;
+    text-align: center;
+    font-family: "Corbel Light";
+    background-color: darkorchid;
+    margin: 10px;
+    padding: 19px;
+
+}
+#computer{
+            border: 2px solid red;
+    text-align: left;
+    font-family: "Droid Serif";
+    background-color: dimgray;
+    margin: 15px;
+    padding: 20px;
+
+}

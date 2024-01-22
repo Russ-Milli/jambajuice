@@ -1,0 +1,32 @@
+body{
+    font-family: Candara;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+#form-container {
+    background-color: brown;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+
+
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+button{
+    background-color: #25033a;
+    color: #a52a7a;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
